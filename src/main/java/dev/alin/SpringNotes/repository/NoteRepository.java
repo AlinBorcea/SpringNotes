@@ -6,6 +6,4 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface NoteRepository extends CrudRepository<@NonNull Note, @NonNull Long> {
-    List<Note> findByUserId(long userId);
-}
+public interface NoteRepository extends CrudRepository<@NonNull Note, @NonNull Long> {}
